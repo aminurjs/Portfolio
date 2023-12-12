@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="bg-[#292C3F] py-5 ">
-      <div className="max-w-7xl mx-auto p-10 flex flex-col-reverse md:flex-row gap-6 items-center shadow-md rounded-lg border border-gray-800">
+      <div className="max-w-7xl mx-auto py-10 flex flex-col-reverse md:flex-row gap-6 items-center shadow-md rounded-lg border border-gray-800">
         <div className="md:w-2/3 mx-auto text-center">
           <div className="p-8 rounded-lg shadow ">
             <h2 className="text-white font-semibold text-3xl md:text-4xl mb-3">

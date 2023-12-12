@@ -14,33 +14,54 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-5">
         <div className="px-5 lg:px-0 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 border-b pb-6 border-gray-500">
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
-            <Link
-              to={"/"}
-              className="flex text-white gap-3 text-3xl font-bold items-center"
-            >
-              <img
-                className="w-10"
-                src="https://i.ibb.co/dGYT0sQ/logo.png"
-                alt=""
-              />
-              TechFirm IT
-            </Link>
+            <img
+              className="w-52 md:w-[250px]"
+              src="https://i.ibb.co/rfZfGrk/logo-no-background.png"
+              alt=""
+            />
             <p className=" text-[#FFFFFFB2] mt-4">
-              Experience the Power of Tailored IT Solutions that Drive Results.
-            </p>
-            <p className=" text-[#FFFFFFB2] mt-2">
-              Your success story begins with our unmatched IT services and
-              commitment.
+              {"I'm"} a passionate Front End Developer with a love for creating
+              seamless user experiences.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-semibold text-white mb-8">
               Useful Links
             </h3>
-            <p className="text-[#FFFFFFB2] mb-2 text-sm">Content</p>
-            <p className="text-[#FFFFFFB2] mb-2 text-sm">Services</p>
-            <p className="text-[#FFFFFFB2] mb-2 text-sm">Explore</p>
-            <p className="text-[#FFFFFFB2] mb-2 text-sm">Terms & Services</p>
+            <ul>
+              <li className=" mb-3 lg:mb-0">
+                <Link
+                  className="text-sm hover:underline text-[#ffffffb2]"
+                  to="#about"
+                >
+                  About
+                </Link>
+              </li>
+              <li className=" mb-3 lg:mb-0">
+                <Link
+                  className="text-sm hover:underline text-[#ffffffb2]"
+                  to="/donation"
+                >
+                  Skills
+                </Link>
+              </li>
+              <li className=" mb-3 lg:mb-0">
+                <Link
+                  className="text-sm hover:underline text-[#ffffffb2]"
+                  to="/statistics"
+                >
+                  Projects
+                </Link>
+              </li>
+              <li className=" mb-3 lg:mb-0">
+                <Link
+                  className="text-sm hover:underline text-[#ffffffb2]"
+                  to="/statistics"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
           </div>
           <div>
             <h3 className="text-xl font-semibold text-white mb-8">Support</h3>
@@ -55,31 +76,31 @@ const Footer = () => {
               Our Contact
             </h3>
             <a
-              href=""
+              href="mailto:dev.aminur@gmail.com"
               className="text-[#FFFFFFB2] mb-3 text-sm flex items-center gap-2"
             >
               <BsFillEnvelopeAtFill className="text-lg text-dark-03" />
-              noreply@aminur.com
+              dev@aminur.com
             </a>
             <a
-              href=""
+              href="tel:+8801755143182"
               className="text-[#FFFFFFB2] mb-3 text-sm flex items-center gap-2"
             >
               <BsFillTelephoneFill className="text-lg text-dark-03" />
-              1111-2222-3333
+              +111-2222-3333
             </a>
             <a
               href=""
               className="text-[#FFFFFFB2] mb-6 text-sm flex items-center gap-2"
             >
               <FaLocationDot className="text-xl text-dark-03" />
-              {"Cox's"} Bazar City in Bangladesh
+              Rangpur City in Bangladesh
             </a>
           </div>
         </div>
         <div className="py-6 flex justify-between px-5 lg:px-0">
           <p className="text-[#FFFFFFB2] text-center">
-            Copyright © 2023 TechFirm IT. All Rights Reserved.
+            Copyright © 2023 Aminur Rahman. All Rights Reserved.
           </p>
           <div className="text-[#FFFFFFB2] text-2xl hidden md:flex gap-4">
             <Link>

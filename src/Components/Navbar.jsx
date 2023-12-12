@@ -16,7 +16,7 @@ const Navbar = () => {
   const Link = (
     <>
       <li className=" mb-3 lg:mb-0">
-        <NavLink className="text-lg hover:underline text-white" to="/">
+        <NavLink className="text-lg hover:underline text-white" to="/#about">
           About
         </NavLink>
       </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="navbar-start">
           <a href="/">
             <img
-              className="w-52 md:w-[250px]"
+              className="w-32 md:w-[250px]"
               src="https://i.ibb.co/rfZfGrk/logo-no-background.png"
               alt=""
             />
@@ -63,7 +63,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="py-2 px-5 ml-5 font-medium bg-yellow-20 mr-5 rounded flex gap-3 items-center">
+            <button className="py-1.5 md:py-2 px-5 ml-5 text-sm md:text-base font-medium bg-yellow-20 rounded flex gap-3 items-center">
               Resume <FaDownload />
             </button>
           </a>

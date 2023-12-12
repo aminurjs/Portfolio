@@ -6,9 +6,9 @@ const Banner = () => {
       <div className="bg-[url(https://i.ibb.co/5jTpSGG/home-background-overlay.png)] bg-cover ">
         <div className="bg-gradient-to-t from-black pt-36 pb-28">
           <div className="max-w-7xl mx-auto my-10 px-5 lg:px-0">
-            <h1 className="text-5xl md:text-7xl text-white  font-semibold  mb-5">
+            <h1 className="text-2xl md:text-5xl lg:text-7xl text-white  font-semibold  mb-5">
               {"Hi I'm "}
-              <span className="text-2xl md:text-4xl text-yellow-20">
+              <span className="text-xs md:text-2xl lg:text-4xl text-yellow-20">
                 <TypeAnimation
                   sequence={[
                     "Aminur Rahman",
@@ -26,7 +26,7 @@ const Banner = () => {
                 />
               </span>
             </h1>
-            <p className="text-lg text-gray-100  max-w-2xl mb-10">
+            <p className="text-base md:text-lg text-gray-100  max-w-2xl mb-10">
               {"I'm"} a passionate Front End Developer with a love for creating
               seamless user experiences. I specialize in React and enjoy turning
               complex problems into elegant, intuitive solutions.

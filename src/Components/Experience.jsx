@@ -44,7 +44,7 @@ const shapeDividerStyles = {
 // Usage in a React component
 const Experience = () => {
   return (
-    <>
+    <div className=" md:block hidden">
       <div style={shapeDividerStyles.shapedividersCom5981}>
         <div
           className=" bg-yellow-20"
@@ -59,23 +59,27 @@ const Experience = () => {
       </div>
       <div className="absolute -bottom-20 left-0 w-full">
         <div className="max-w-7xl mx-auto flex justify-evenly items-center">
-          <h1 className="text-white font-bold text-7xl text-center">
+          <h1 className="text-white font-bold text-5xl lg:text-7xl text-center">
             20+{" "}
-            <span className="text-3xl font-medium block">Project Complete</span>
+            <span className="text-2xl md:text-3xl font-medium block">
+              Project Complete
+            </span>
           </h1>
-          <h1 className="text-white font-bold text-7xl text-center">
+          <h1 className="text-white font-bold text-5xl lg:text-7xl text-center">
             250+{" "}
-            <span className="text-3xl font-medium block">Contribution</span>
+            <span className="text-2xl md:text-3xl font-medium block">
+              Contribution
+            </span>
           </h1>
-          <h1 className="text-white font-bold text-7xl text-center">
+          <h1 className="text-white font-bold text-5xl lg:text-7xl text-center">
             1+{" "}
-            <span className="text-3xl font-medium block">
+            <span className="text-2xl md:text-3xl font-medium block">
               Years of Experience
             </span>
           </h1>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

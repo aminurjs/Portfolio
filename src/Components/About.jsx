@@ -8,7 +8,7 @@ import {
 
 const About = () => {
   return (
-    <div className="bg-[#252839] pt-20 pb-28">
+    <div id="about" className="bg-[#252839] pt-20 pb-28">
       <div className="max-w-7xl mx-auto  flex gap-12 py-16 items-center px-5 flex-col md:flex-row">
         <div className="border border-yellow-20 p-3 relative w-full md:w-2/5 lg:w-1/2 mr-12 ml-5 md:mr-5">
           <img src="https://i.ibb.co/B4F7RTL/2151005751.jpg" alt="2151005751" />

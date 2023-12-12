@@ -35,13 +35,13 @@ const Projects = () => {
   return (
     <div className="bg-[#252839]">
       <div className="max-w-7xl mx-auto py-20 px-5">
-        <h2 className="text-3xl text-white md:text-4xl lg:text-5xl font-semibold mb-2">
+        <h2 className="text-3xl text-white md:text-4xl lg:text-5xl font-semibold mb-2 text-center">
           RECENT PROJECTS
         </h2>
-        <h3 className="text-yellow-20 tracking-[3px] uppercase mb-3 ">
+        <h3 className="text-yellow-20 tracking-[3px] uppercase mb-3  text-center">
           My Achievements and Contributions in Diverse Projects
         </h3>
-        <div className="w-20 h-1.5 bg-yellow-20 my-5"></div>
+        <div className="w-20 h-1.5 bg-yellow-20 my-5 mx-auto"></div>
 
         <PinnedProject />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
