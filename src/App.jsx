@@ -1,5 +1,6 @@
 import About from "./Components/About";
 import Banner from "./Components/Banner";
+import Experience from "./Components/Experience";
 import Navbar from "./Components/Navbar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <Banner />
+      <Experience />
       <About />
     </>
   );

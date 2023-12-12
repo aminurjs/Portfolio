@@ -2,9 +2,9 @@ import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
-    <>
-      <div className="bg-[url(https://i.ibb.co/DYjLg47/2150898496.jpg)] bg-right-top  border-b border-gray-600">
-        <div className="bg-[url(https://i.ibb.co/5jTpSGG/home-background-overlay.png)] bg-cover pt-36 pb-28">
+    <div className="bg-[url(https://i.ibb.co/DYjLg47/2150898496.jpg)] bg-right-top ">
+      <div className="bg-[url(https://i.ibb.co/5jTpSGG/home-background-overlay.png)] bg-cover ">
+        <div className="bg-gradient-to-t from-black pt-36 pb-28">
           <div className="max-w-7xl mx-auto my-10 px-5 lg:px-0">
             <h1 className="text-5xl md:text-7xl text-white  font-semibold  mb-5">
               {"Hi I'm "}
@@ -37,7 +37,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

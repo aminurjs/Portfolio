@@ -8,8 +8,8 @@ import {
 
 const About = () => {
   return (
-    <div className="bg-[#252839] pt-20">
-      <div className="max-w-7xl mx-auto mb-28 flex gap-12 py-16 items-center px-5 flex-col md:flex-row">
+    <div className="bg-[#252839] pt-20 pb-28">
+      <div className="max-w-7xl mx-auto  flex gap-12 py-16 items-center px-5 flex-col md:flex-row">
         <div className="border border-yellow-20 p-3 relative w-full md:w-2/5 lg:w-1/2 mr-12 ml-5 md:mr-5">
           <img src="https://i.ibb.co/B4F7RTL/2151005751.jpg" alt="2151005751" />
           <div className="absolute -bottom-5 -right-10 w-48 md:w-40 lg:w-60 p-2 bg-yellow-20">
@@ -40,7 +40,7 @@ const About = () => {
             </p>
           </div>
           <div className="flex gap-3 items-center text-[#bfbecb]">
-            <p>Connect with</p>
+            <p className="text-yellow-20">Connect with</p>
             <div className="h-[1px] w-20 bg-[#bfbecb] mt-1"></div>
             <FaAngleRight className="-ml-6 mt-1" />
 
