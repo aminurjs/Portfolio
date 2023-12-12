@@ -12,7 +12,7 @@ import Skill from "./Skill";
 
 const Skills = () => {
   return (
-    <div className="bg-[#252839]  border-t border-gray-700">
+    <div className="bg-[#292C3F]">
       <div className="max-w-7xl mx-auto py-20 px-5">
         <h2 className="text-3xl text-white md:text-4xl lg:text-5xl font-semibold mb-2 text-center">
           Skills
@@ -21,7 +21,7 @@ const Skills = () => {
           A Comprehensive Showcase of My Skillset.
         </h3>
         <div className="w-20 h-1.5 bg-yellow-20 my-5 mx-auto"></div>
-        <div className="grid md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-5">
+        <div className="grid md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-5 overflow-y-auto h-[500px] md:h-full">
           <Skill img={svg2} text={"HTML5"} duration={"90%"} />
           <Skill img={svg1} text={"CSS3"} duration={"80%"} />
           <Skill img={svg3} text={"Tailwind CSS"} duration={"80%"} />
