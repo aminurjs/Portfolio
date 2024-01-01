@@ -57,7 +57,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div className="absolute -bottom-20 left-0 w-full">
+      <div className="absolute -bottom-36 left-0 w-full">
         <div className="max-w-7xl mx-auto flex justify-evenly items-center">
           <h1 className="text-white font-bold text-5xl lg:text-7xl text-center">
             20+{" "}

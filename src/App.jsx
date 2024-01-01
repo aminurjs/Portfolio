@@ -6,18 +6,36 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
+import "./app.css";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Banner />
-      <Experience />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <section>
+        <Navbar />
+      </section>
+      <section>
+        <Banner />
+      </section>
+      <section>
+        <Experience />
+      </section>
+      <section>
+        <About />
+      </section>
+      <section>
+        <Skills />
+      </section>
+      <section>
+        <Projects />
+      </section>
+      <section>
+        <Contact />
+      </section>
+      <section>
+        {" "}
+        <Footer />
+      </section>
     </>
   );
 }
