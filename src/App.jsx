@@ -11,7 +11,7 @@ import "./app.css";
 function App() {
   return (
     <>
-      <section>
+      <section id="home" className="nav">
         <Navbar />
       </section>
       <section>
@@ -20,16 +20,16 @@ function App() {
       <section>
         <Experience />
       </section>
-      <section>
+      <section id="about">
         <About />
       </section>
-      <section>
+      <section id="skills">
         <Skills />
       </section>
-      <section>
+      <section id="projects">
         <Projects />
       </section>
-      <section>
+      <section id="contact">
         <Contact />
       </section>
       <section>

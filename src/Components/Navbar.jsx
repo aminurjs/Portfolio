@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 import { FaXmark } from "react-icons/fa6";
-import { FaDownload } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import Download from "./Download";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,30 +15,24 @@ const Navbar = () => {
   const Link = (
     <>
       <li className=" mb-3 lg:mb-0">
-        <NavLink className="text-lg hover:underline text-white" to="/#about">
+        <a className="text-lg hover:underline text-white" href="#about">
           About
-        </NavLink>
+        </a>
       </li>
       <li className=" mb-3 lg:mb-0">
-        <NavLink className="text-lg hover:underline text-white" to="/donation">
+        <a className="text-lg hover:underline text-white" href="#skills">
           Skills
-        </NavLink>
+        </a>
       </li>
       <li className=" mb-3 lg:mb-0">
-        <NavLink
-          className="text-lg hover:underline text-white"
-          to="/statistics"
-        >
+        <a className="text-lg hover:underline text-white" href="#projects">
           Projects
-        </NavLink>
+        </a>
       </li>
       <li className=" mb-3 lg:mb-0">
-        <NavLink
-          className="text-lg hover:underline text-white"
-          to="/statistics"
-        >
+        <a className="text-lg hover:underline text-white" href="#contact">
           Contact
-        </NavLink>
+        </a>
       </li>
     </>
   );
@@ -57,16 +50,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="navbar-end">
-          <ul className="hidden lg:flex gap-5">{Link}</ul>{" "}
-          <a
-            href="https://drive.google.com/file/d/1KkYnYy0WvHQF_jyFBWXzcGhNgJex8RgU/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="py-1.5 md:py-2 px-5 ml-5 text-sm md:text-base font-medium bg-yellow-20 rounded flex gap-3 items-center">
-              Resume <FaDownload />
-            </button>
-          </a>
+          <ul className="hidden lg:flex gap-5">{Link}</ul> <Download />
           <div className="relative">
             <div className="w-16">
               {!open ? (

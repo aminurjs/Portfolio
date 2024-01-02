@@ -9,12 +9,12 @@ const Skill = ({ img, duration, text }) => {
         </div>
         <p className="text-2xl font-medium text-white">{duration}</p>
       </div>
-      <div className="bg-gray-700 rounded-full w-full h-5">
+      <div className="bg-gray-700 rounded-full w-full h-3">
         <div
           style={{
             width: duration,
           }}
-          className="bg-yellow-20 h-5 rounded-full"
+          className="bg-yellow-20 h-3 rounded-full"
         ></div>
       </div>
     </div>

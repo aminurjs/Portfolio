@@ -31,9 +31,11 @@ const Banner = () => {
               seamless user experiences. I specialize in React and enjoy turning
               complex problems into elegant, intuitive solutions.
             </p>
-            <button className="py-3 px-8 md:px-10 text-blue-1 bg-yellow-20 mr-5 rounded">
-              See Projects
-            </button>
+            <a href="#projects">
+              <button className="py-3 px-8 md:px-10 text-blue-1 bg-yellow-20 mr-5 rounded">
+                See Projects
+              </button>
+            </a>
           </div>
         </div>
       </div>
