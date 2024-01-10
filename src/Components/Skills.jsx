@@ -26,12 +26,12 @@ const Skills = () => {
           <Skill img={svg1} text={"CSS3"} duration={"80%"} />
           <Skill img={svg3} text={"Tailwind CSS"} duration={"80%"} />
           <Skill img={svg4} text={"JavaScript ES6+"} duration={"60%"} />
-          <Skill img={svg5} text={"REACT.js"} duration={"75%"} />
+          <Skill img={svg5} text={"REACT.js"} duration={"80%"} />
           <Skill img={svg6} text={"NODE.js"} duration={"40%"} />
           <Skill img={svg7} text={"Firebase"} duration={"30%"} />
           <Skill img={svg8} text={"MongoDB"} duration={"50%"} />
           <Skill img={svg9} text={"EXPRESS.js"} duration={"50%"} />
-          <Skill img={svg10} text={"NEXT.js"} duration={"30%"} />
+          <Skill img={svg10} text={"NEXT.js"} duration={"50%"} />
         </div>
       </div>
     </div>

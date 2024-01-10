@@ -18,7 +18,7 @@ const About = () => {
           <div className="md:border border-yellow-20 p-3 relative w-full md:w-2/5 lg:w-1/2 ml-5 md:mr-5">
             <img
               className="hidden md:block"
-              src="https://i.ibb.co/B4F7RTL/2151005751.jpg"
+              src="https://i.ibb.co/QbXZjXf/html-system-website-concept.jpg"
               alt="2151005751"
             />
             <div className="-mt-16 mx-auto md:absolute top-10 -right-6 w-48 md:w-28 lg:w-40 border-8 border-yellow-20 rounded-full overflow-hidden z-10">

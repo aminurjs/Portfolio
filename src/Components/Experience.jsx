@@ -44,36 +44,32 @@ const shapeDividerStyles = {
 // Usage in a React component
 const Experience = () => {
   return (
-    <div className=" md:block hidden">
+    <div className="relative">
       <div style={shapeDividerStyles.shapedividersCom5981}>
         <div
           className=" bg-yellow-20"
           style={shapeDividerStyles.shapedividersCom5981Before}
         ></div>
         {/* Your component content */}
-        <div className="pb-20 pt-32">
-          <div>
-            <h1 className="text-white font-bold text-7xl">2</h1>
-          </div>
-        </div>
+        <div className="h-48 md:h-72"></div>
       </div>
-      <div className="absolute -bottom-36 left-0 w-full">
-        <div className="max-w-7xl mx-auto flex justify-evenly items-center">
-          <h1 className="text-white font-bold text-5xl lg:text-7xl text-center">
+      <div className="absolute top-[40%] left-0 w-full">
+        <div className="max-w-7xl mx-auto flex justify-evenly items-end md:items-center">
+          <h1 className="text-white font-bold text-2xl md:text-5xl lg:text-7xl text-center">
             20+{" "}
-            <span className="text-2xl md:text-3xl font-medium block">
+            <span className="text-lg md:text-3xl font-medium block">
               Project Complete
             </span>
           </h1>
-          <h1 className="text-white font-bold text-5xl lg:text-7xl text-center">
+          <h1 className="text-white font-bold text-2xl md:text-5xl lg:text-7xl text-center">
             250+{" "}
-            <span className="text-2xl md:text-3xl font-medium block">
+            <span className="text-lg md:text-3xl font-medium block">
               Contribution
             </span>
           </h1>
-          <h1 className="text-white font-bold text-5xl lg:text-7xl text-center">
+          <h1 className="text-white font-bold text-2xl md:text-5xl lg:text-7xl text-center">
             1+{" "}
-            <span className="text-2xl md:text-3xl font-medium block">
+            <span className="text-lg md:text-3xl font-medium block">
               Years of Experience
             </span>
           </h1>

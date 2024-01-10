@@ -2,10 +2,10 @@ import { FaDownload } from "react-icons/fa6";
 
 const Download = () => {
   const handleDownload = () => {
-    const pdfUrl = "./Aminur_Rahman.pdf";
+    const pdfUrl = "./Aminur-Frontend-Developer.pdf";
     const a = document.createElement("a");
     a.href = pdfUrl;
-    a.download = "Aminur Rahman.pdf";
+    a.download = "Aminur-Frontend-Developer.pdf";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
